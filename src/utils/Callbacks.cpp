@@ -53,7 +53,7 @@ void Callbacks::invoke_callbacks(std::string library, void* handle) {
 
 void install_cbs_hook() {
   auto symbol_lookup = EchoUtils::HandleUtils::get_symbol_address(
-      "libr15,so", "_ZN10NRadEngine10CSysModule4LoadERKNS_13CFixedStringTILy512EEEPvjj");
+      "libr15.so", "_ZN10NRadEngine10CSysModule4LoadERKNS_13CFixedStringTILy512EEEPvjj");
 
   auto target = (uint32_t*)symbol_lookup.first;
   auto& error = symbol_lookup.second;
