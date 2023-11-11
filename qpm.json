@@ -1,0 +1,37 @@
+{
+  "sharedDir": "shared",
+  "dependenciesDir": "extern",
+  "info": {
+    "name": "echo-utils",
+    "id": "echo-utils",
+    "version": "0.1.0",
+    "url": "https://github.com/RedBrumbler/EchoUtils",
+    "additionalData": {
+      "cmake": false,
+      "overrideSoName": "libecho-utils.so"
+    }
+  },
+  "dependencies": [
+    {
+      "id": "flamingo",
+      "versionRange": "^0.1.2",
+      "additionalData": {}
+    },
+    {
+      "id": "capstone",
+      "versionRange": "^0.1.0",
+      "additionalData": {}
+    },
+    {
+      "id": "fmt",
+      "versionRange": "^10.0.0",
+      "additionalData": {}
+    },
+    {
+      "id": "yodel",
+      "versionRange": "^0.0.2",
+      "additionalData": {}
+    }
+  ],
+  "workspace": null
+}
