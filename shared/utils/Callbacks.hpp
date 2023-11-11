@@ -3,6 +3,7 @@
 #include <functional>
 #include <list>
 #include <string>
+#include <unordered_map>
 
 /// @brief installs a hook for when libs are loaded
 extern void install_cbs_hook();
